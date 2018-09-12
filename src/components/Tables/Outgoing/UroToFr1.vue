@@ -22,7 +22,7 @@
 
 <script>
 export default {
-  name: 'outgoing-table',
+  name: 'uro-to-fr1',
   props: {
     tableHeaderColor: {
       type: String,

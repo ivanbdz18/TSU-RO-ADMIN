@@ -16,17 +16,13 @@
         <md-icon>dashboard</md-icon>
         <p>Outgoing Research</p>
       </sidebar-link>
-      <sidebar-link to="/table">
+      <sidebar-link to="/forms">
         <md-icon>content_paste</md-icon>
-        <p>Download</p>
+        <p>Forms</p>
       </sidebar-link>
       <sidebar-link to="/user">
         <md-icon>person</md-icon>
         <p>User Profile</p>
-      </sidebar-link>
-      <sidebar-link to="/maps">
-        <md-icon>location_on</md-icon>
-        <p>Maps</p>
       </sidebar-link>
       <sidebar-link to="/notifications">
         <md-icon>notifications</md-icon>

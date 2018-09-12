@@ -4,7 +4,7 @@ import Dashboard from '@/pages/Dashboard.vue'
 import Ingoing from '@/pages/Ingoing.vue'
 import Outgoing from '@/pages/Outgoing.vue'
 import UserProfile from '@/pages/UserProfile.vue'
-import TableList from '@/pages/TableList.vue'
+import Forms from '@/pages/Forms.vue'
 import Typography from '@/pages/Typography.vue'
 import Notifications from '@/pages/Notifications.vue'
 
@@ -35,9 +35,9 @@ const routes = [
         component: UserProfile
       },
       {
-        path: 'table',
-        name: 'Table List',
-        component: TableList
+        path: 'forms',
+        name: 'Forms',
+        component: Forms
       },
       {
         path: 'typography',

@@ -15,6 +15,7 @@ import IngoingTable from './Tables/IngoingTable.vue'
 import UroToFr1 from './Tables/Outgoing/UroToFr1.vue'
 import UroToFr2 from './Tables/Outgoing/UroToFr2.vue'
 import UroToOup from './Tables/Outgoing/UroToOup.vue'
+import FormsTable from './Tables/FormsTable.vue'
 
 export {
   ChartCard,
@@ -30,5 +31,6 @@ export {
   IngoingTable,
   UroToFr1,
   UroToFr2,
-  UroToOup
+  UroToOup,
+  FormsTable
 }
