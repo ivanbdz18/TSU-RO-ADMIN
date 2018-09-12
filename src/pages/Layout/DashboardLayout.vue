@@ -8,10 +8,18 @@
         <md-icon>dashboard</md-icon>
         <p>Documents</p>
       </sidebar-link>
+      <sidebar-link to="/ingoing">
+        <md-icon>dashboard</md-icon>
+        <p>Ingoing Research</p>
+      </sidebar-link>
+      <sidebar-link to="/outgoing">
+        <md-icon>dashboard</md-icon>
+        <p>Outgoing Research</p>
+      </sidebar-link>
       <sidebar-link to="/table">
         <md-icon>content_paste</md-icon>
         <p>Download</p>
-      </sidebar-link>      
+      </sidebar-link>
       <sidebar-link to="/user">
         <md-icon>person</md-icon>
         <p>User Profile</p>
