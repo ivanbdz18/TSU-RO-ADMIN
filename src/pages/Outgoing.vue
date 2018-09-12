@@ -7,7 +7,7 @@
             <h4 class="title">Proceed to Faculty Researcher</h4>
           </md-card-header>
           <md-card-content>
-            <outgoing-table table-header-color="blue"></outgoing-table>
+            <uro-to-fr1 table-header-color="blue"></uro-to-fr1>
           </md-card-content>
         </md-card>
       </div>
@@ -17,7 +17,7 @@
             <h4 class="title">Proceed to Office of the University President</h4>
           </md-card-header>
           <md-card-content>
-           <outgoing-table table-header-color="blue"></outgoing-table>
+           <uro-to-oup table-header-color="blue"></uro-to-oup>
           </md-card-content>
         </md-card>
       </div>
@@ -27,7 +27,7 @@
             <h4 class="title">Proceed to Faculty Researcher</h4>
           </md-card-header>
           <md-card-content>
-            <outgoing-table table-header-color="blue"></outgoing-table>
+            <uro-to-fr2 table-header-color="blue"></uro-to-fr2>
           </md-card-content>
         </md-card>
       </div>
@@ -37,12 +37,16 @@
 
 <script>
 import {
-  OutgoingTable
+  UroToFr1,
+  UroToFr2,
+  UroToOup
 } from '@/components'
 
 export default{
   components: {
-    OutgoingTable
+    UroToFr1,
+    UroToFr2,
+    UroToOup
   },
   data () {
     return {

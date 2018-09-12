@@ -12,7 +12,9 @@ import AuditTrail from './Tables/AuditTrail.vue'
 import SimpleTable from './Tables/SimpleTable.vue'
 import FromResearcher from './Tables/FromResearcher.vue'
 import IngoingTable from './Tables/IngoingTable.vue'
-import OutgoingTable from './Tables/OutgoingTable.vue'
+import UroToFr1 from './Tables/Outgoing/UroToFr1.vue'
+import UroToFr2 from './Tables/Outgoing/UroToFr2.vue'
+import UroToOup from './Tables/Outgoing/UroToOup.vue'
 
 export {
   ChartCard,
@@ -26,5 +28,7 @@ export {
   SimpleTable,
   FromResearcher,
   IngoingTable,
-  OutgoingTable
+  UroToFr1,
+  UroToFr2,
+  UroToOup
 }
