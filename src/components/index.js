@@ -11,6 +11,8 @@ import NavTabsTableRerc from './Tables/NavTabsTableRerc.vue'
 import AuditTrail from './Tables/AuditTrail.vue'
 import SimpleTable from './Tables/SimpleTable.vue'
 import FromResearcher from './Tables/FromResearcher.vue'
+import IngoingTable from './Tables/IngoingTable.vue'
+import OutgoingTable from './Tables/OutgoingTable.vue'
 
 export {
   ChartCard,
@@ -22,5 +24,7 @@ export {
   NavTabsTableRerc,
   AuditTrail,
   SimpleTable,
-  FromResearcher
+  FromResearcher,
+  IngoingTable,
+  OutgoingTable
 }

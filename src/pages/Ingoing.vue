@@ -7,7 +7,7 @@
             <h4 class="title">Ingoing Research From Faculty Researcher</h4>
           </md-card-header>
           <md-card-content>
-            <audit-trail table-header-color="blue"></audit-trail>
+            <ingoing-table table-header-color="blue"></ingoing-table>
           </md-card-content>
         </md-card>
       </div>
@@ -17,7 +17,7 @@
             <h4 class="title">Ingoing Research From OUP</h4>
           </md-card-header>
           <md-card-content>
-            <audit-trail table-header-color="blue"></audit-trail>
+           <ingoing-table table-header-color="blue"></ingoing-table>
           </md-card-content>
         </md-card>
       </div>
@@ -37,24 +37,12 @@
 
 <script>
 import {
-  NavTabsCard,
-  NavTabsTableCrec,
-  NavTabsTableDrc,
-  NavTabsTableUrec,
-  NavTabsTableRerc,
-  AuditTrail,
-  FromResearcher
+  IngoingTable
 } from '@/components'
 
 export default{
   components: {
-    NavTabsCard,
-    NavTabsTableCrec,
-    NavTabsTableDrc,
-    NavTabsTableUrec,
-    NavTabsTableRerc,
-    AuditTrail,
-    FromResearcher
+    IngoingTable
   },
   data () {
     return {
