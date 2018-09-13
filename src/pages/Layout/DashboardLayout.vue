@@ -6,23 +6,23 @@
       <mobile-menu slot="content"></mobile-menu>
       <sidebar-link to="/dashboard">
         <md-icon>dashboard</md-icon>
-        <p>Documents</p>
+        <p>Dashboard</p>
       </sidebar-link>
       <sidebar-link to="/ingoing">
-        <md-icon>dashboard</md-icon>
+        <md-icon>vertical_align_bottom</md-icon>
         <p>Ingoing Research</p>
       </sidebar-link>
       <sidebar-link to="/outgoing">
-        <md-icon>dashboard</md-icon>
+        <md-icon>vertical_align_top</md-icon>
         <p>Outgoing Research</p>
       </sidebar-link>
       <sidebar-link to="/forms">
-        <md-icon>content_paste</md-icon>
+        <md-icon>file_copy</md-icon>
         <p>Forms</p>
       </sidebar-link>
-      <sidebar-link to="/user">
+      <sidebar-link to="/accounts">
         <md-icon>person</md-icon>
-        <p>User Profile</p>
+        <p>Accounts</p>
       </sidebar-link>
       <sidebar-link to="/notifications">
         <md-icon>notifications</md-icon>

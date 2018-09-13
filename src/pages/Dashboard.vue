@@ -14,10 +14,10 @@
        <div class="md-layout-item md-medium-size-100 md  -xsmall-size-100 md-size-100">
         <md-card>
           <md-card-header data-background-color="blue">
-            <h4 class="title">From Researchers</h4>
+            <h4 class="title">Ingoing Request Forms/Forms From Researchers</h4>
           </md-card-header>
           <md-card-content>
-            <from-researcher table-header-color="blue"></from-researcher>
+            <ingoing-forms table-header-color="blue"></ingoing-forms>
           </md-card-content>
         </md-card>
       </div>
@@ -27,24 +27,14 @@
 
 <script>
 import {
-  NavTabsCard,
-  NavTabsTableCrec,
-  NavTabsTableDrc,
-  NavTabsTableUrec,
-  NavTabsTableRerc,
   AuditTrail,
-  FromResearcher
+  IngoingForms
 } from '@/components'
 
 export default{
   components: {
-    NavTabsCard,
-    NavTabsTableCrec,
-    NavTabsTableDrc,
-    NavTabsTableUrec,
-    NavTabsTableRerc,
     AuditTrail,
-    FromResearcher
+    IngoingForms
   },
   data () {
     return {
