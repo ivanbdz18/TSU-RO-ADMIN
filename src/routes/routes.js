@@ -3,6 +3,7 @@ import DashboardLayout from '@/pages/Layout/DashboardLayout.vue'
 import Dashboard from '@/pages/Dashboard.vue'
 import Ingoing from '@/pages/Ingoing.vue'
 import Outgoing from '@/pages/Outgoing.vue'
+import Research from '@/pages/Research.vue'
 import Accounts from '@/pages/Accounts.vue'
 import Forms from '@/pages/Forms.vue'
 import Typography from '@/pages/Typography.vue'
@@ -28,6 +29,11 @@ const routes = [
         path: 'outgoing',
         name: 'Outgoing',
         component: Outgoing
+      },
+      {
+        path: 'research',
+        name: 'Research',
+        component: Research
       },
       {
         path: 'accounts',

@@ -19,6 +19,7 @@ import FormsTable from './Tables/FormsTable.vue'
 import AccDrc from './Tables/Accounts/AccDrc.vue'
 import OfficeClerk from './Tables/Accounts/OfficeClerk.vue'
 import CollegeClerk from './Tables/Accounts/CollegeClerk.vue'
+import CollegeResearch from './Tables/CollegeResearch.vue'
 
 export {
   ChartCard,
@@ -38,5 +39,6 @@ export {
   FormsTable,
   AccDrc,
   OfficeClerk,
-  CollegeClerk
+  CollegeClerk,
+  CollegeResearch
 }

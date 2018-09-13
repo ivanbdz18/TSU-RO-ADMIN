@@ -20,6 +20,10 @@
         <md-icon>file_copy</md-icon>
         <p>Forms</p>
       </sidebar-link>
+      <sidebar-link to="/research">
+        <md-icon>description</md-icon>
+        <p>Research</p>
+      </sidebar-link>
       <sidebar-link to="/accounts">
         <md-icon>person</md-icon>
         <p>Accounts</p>
