@@ -2,13 +2,13 @@
   <div>
     <md-table v-model="users" :table-header-color="tableHeaderColor">
       <md-table-row slot="md-table-row" slot-scope="{ item }">
-        <md-table-cell md-label="User ID">{{ item.userId }}</md-table-cell>
+        <md-table-cell md-label="User ID">{{ item.user_id }}</md-table-cell>
         <md-table-cell md-label="First Name">{{ item.fname }}</md-table-cell>
         <md-table-cell md-label="Middle Name">{{ item.mname }}</md-table-cell>
         <md-table-cell md-label="Last Name">{{ item.lname }}</md-table-cell>
-        <md-table-cell md-label="College & Department">{{ item.collDept }}</md-table-cell>
+        <md-table-cell md-label="College & Department">{{ item.college_dept }}</md-table-cell>
         <md-table-cell md-label="Email">{{ item.email }}</md-table-cell>
-        <md-table-cell md-label="Contact Number">{{ item.contactNum }}</md-table-cell>
+        <md-table-cell md-label="Contact Number">{{ item.contact_number }}</md-table-cell>
       </md-table-row>
     </md-table>
   </div>

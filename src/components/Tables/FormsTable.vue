@@ -2,7 +2,7 @@
   <div>
     <md-table v-model="users" :table-header-color="tableHeaderColor">
       <md-table-row slot="md-table-row" slot-scope="{ item }">
-        <md-table-cell md-label="Name">{{ item.form }}</md-table-cell>
+        <md-table-cell md-label="Form Name">{{ item.forms }}</md-table-cell>
         <md-table-cell md-label="Action">
           <md-button class="md-just-icon md-simple md-primary">
             <md-icon>get_app</md-icon>

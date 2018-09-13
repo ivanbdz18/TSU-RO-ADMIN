@@ -3,8 +3,8 @@
     <md-table v-model="users" :table-header-color="tableHeaderColor">
       <md-table-row slot="md-table-row" slot-scope="{ item }">
         <md-table-cell md-label="Time Date">{{ item.time_date }}</md-table-cell>
-        <md-table-cell md-label="Tracking No.">{{ item.trackNo }}</md-table-cell>
-        <md-table-cell md-label="Research Title">{{ item.ResTitle }}</md-table-cell>
+        <md-table-cell md-label="Tracking No.">{{ item.tracking_number }}</md-table-cell>
+        <md-table-cell md-label="Research Title">{{ item.title }}</md-table-cell>
         <md-table-cell md-label="Grade in Colloquium">{{ item.gradeCol }}</md-table-cell>
         <md-table-cell md-label="Grade in InHouse Review">{{ item.gradeIn }}</md-table-cell>
         <md-table-cell md-label="Incentive">{{ item.incentive }}</md-table-cell>

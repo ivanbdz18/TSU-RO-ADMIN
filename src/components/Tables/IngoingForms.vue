@@ -3,7 +3,7 @@
     <md-table v-model="users" :table-header-color="tableHeaderColor">
       <md-table-row slot="md-table-row" slot-scope="{ item }">
         <md-table-cell md-label="Time Date">{{ item.time_date }}</md-table-cell>
-        <md-table-cell md-label="User ID">{{ item.userId }}</md-table-cell>
+        <md-table-cell md-label="User ID">{{ item.user_id }}</md-table-cell>
         <md-table-cell md-label="Form Type">{{ item.forms }}</md-table-cell>
           <md-table-cell md-label="Actions">
           <md-button class="md-just-icon md-simple md-primary">
