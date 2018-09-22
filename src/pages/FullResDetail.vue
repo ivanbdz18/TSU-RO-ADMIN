@@ -3,7 +3,6 @@
     <div class="md-layout">
       <div class="md-layout-item md-medium-size-100 md-size-66">
         <update-res-detail data-background-color="green">
-
         </update-res-detail>
       </div>
     </div>
@@ -12,12 +11,12 @@
 
 <script>
 import {
-  UpdateResDetail
+  UpResDet
 } from '@/components'
 
 export default{
   components: {
-    UpdateResDetail
+    UpResDet
   }
 }
 </script>

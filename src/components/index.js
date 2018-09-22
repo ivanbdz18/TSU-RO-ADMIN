@@ -31,7 +31,7 @@ import OupToUro from './Tables/Ingoing/OupToUro.vue'
 import FrToUro2 from './Tables/Ingoing/FrToUro2.vue'
 import ResearchList from './Tables/ResearchList.vue'
 import ProgReport from './Tables/ProgReport.vue'
-import UpdateResDetail from './Tables/UpdateResDetail.vue'
+import UpResDet from './Tables/UpResDet.vue'
 
 export {
   ChartCard,
@@ -64,5 +64,5 @@ export {
   FrToUro2,
   ResearchList,
   ProgReport,
-  UpdateResDetail
+  UpResDet
 }
