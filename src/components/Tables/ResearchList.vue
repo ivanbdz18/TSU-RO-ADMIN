@@ -9,7 +9,7 @@
         <md-table-cell md-label="Action">
           <md-button to="tracking" class="md-just-icon md-simple md-primary">
             <md-icon>remove_red_eye</md-icon>
-            <md-tooltip md-direction="bottom">View</md-tooltip>
+            <md-tooltip md-direction="bottom">View Tracking</md-tooltip>
           </md-button>
           <md-button to="progressreport" class="md-just-icon md-simple md-primary">
             <md-icon>ballot</md-icon>
