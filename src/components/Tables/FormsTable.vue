@@ -1,5 +1,13 @@
 <template>
   <div>
+    <md-dialog-confirm
+      :md-active.sync="active"
+      md-title="Do You Really Want To Update/Replace?"
+      md-content="Replacing the current file."
+      md-confirm-text="Yes"
+      md-cancel-text="No"
+      @md-cancel="onCancel"
+      @md-confirm="onConfirm" />
     <md-table v-model="users" :table-header-color="tableHeaderColor">
       <md-table-row slot="md-table-row" slot-scope="{ item }">
         <md-table-cell md-label="Form Name">{{ item.forms }}</md-table-cell>
@@ -7,6 +15,10 @@
           <md-button class="md-just-icon md-simple md-primary">
             <md-icon>get_app</md-icon>
             <md-tooltip md-direction="bottom">Download</md-tooltip>
+          </md-button>
+          <md-button class="md-just-icon md-simple md-primary" @click="active = true">
+            <md-icon>vertical_align_top</md-icon>
+            <md-tooltip md-direction="bottom">Update/Replace</md-tooltip>
           </md-button>
         </md-table-cell>
       </md-table-row>
@@ -25,6 +37,7 @@ export default {
   },
   data () {
     return {
+      active: false,
       selected: [],
       users: [
         {
@@ -91,6 +104,14 @@ export default {
           forms: 'TSU-URO-SF-45 Turnitin Run Request Form'
         }
       ]
+    }
+  },
+  methods: {
+    onConfirm () {
+      this.value = 'Agreed'
+    },
+    onCancel () {
+      this.value = 'Disagreed'
     }
   }
 }

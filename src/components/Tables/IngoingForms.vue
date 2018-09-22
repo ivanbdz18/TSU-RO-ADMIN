@@ -1,9 +1,9 @@
 <template>
-  <div>
+  <div class="max300">
     <md-table v-model="users" :table-header-color="tableHeaderColor">
       <md-table-row slot="md-table-row" slot-scope="{ item }">
         <md-table-cell md-label="Time Date">{{ item.time_date }}</md-table-cell>
-        <md-table-cell md-label="User ID">{{ item.user_id }}</md-table-cell>
+        <md-table-cell md-label="User Name">{{ item.user_name }}</md-table-cell>
         <md-table-cell md-label="Form Type">{{ item.forms }}</md-table-cell>
           <md-table-cell md-label="Actions">
           <md-button class="md-just-icon md-simple md-primary">
@@ -14,6 +14,9 @@
             <md-icon>delete_forever</md-icon>
             <md-tooltip md-direction="top">Delete</md-tooltip>
           </md-button>
+        </md-table-cell>
+        <md-table-cell md-label="Action">
+          <md-button to="/comment" class="md-raised md-success">Comment</md-button>
         </md-table-cell>
         <md-table-cell md-label="Status">
           <md-button class="md-raised md-success">Approve</md-button> <!--notify sender na na'approve request nia-->
@@ -38,31 +41,49 @@ export default {
       selected: [],
       users: [
         {
-          trackNo: 1001,
-          ResTitle: 'Dakota Rice',
-          time_date: '10:30:02/02/15/18',
-          transaction: 'Niger'
+          time_date: '2:5:45 02/15/18',
+          user_name: 'ivan',
+          forms: 'TSU-RO-SF-02'
         },
         {
-          trackNo: 1002,
-          ResTitle: 'Dakota Rice',
-          time_date: '10:30:02/02/15/18',
-          transaction: 'Niger'
+          time_date: '1:15:15 02/10/18',
+          user_name: 'michelle',
+          forms: 'TSU-RO-SF-01'
         },
         {
-          trackNo: 1003,
-          ResTitle: 'Dakota Rice',
-          time_date: '10:30:02/02/15/18',
-          transaction: 'Niger'
+          time_date: '5:25:22 02/08/18',
+          user_name: 'nomar',
+          forms: 'TSU-RO-SF-06'
         },
         {
-          trackNo: 1004,
-          ResTitle: 'Dakota Rice',
-          time_date: '10:30:02/02/15/18',
-          transaction: 'Niger'
+          time_date: '5:25:22 02/08/18',
+          user_name: 'nomar',
+          forms: 'TSU-RO-SF-06'
+        },
+        {
+          time_date: '5:25:22 02/08/18',
+          user_name: 'nomar',
+          forms: 'TSU-RO-SF-06'
+        },
+        {
+          time_date: '5:25:22 02/08/18',
+          user_name: 'nomar',
+          forms: 'TSU-RO-SF-06'
+        },
+        {
+          time_date: '6:25:25 02/07/18',
+          user_name: 'anjeanette',
+          forms: 'TSU-RO-SF-12'
         }
       ]
     }
   }
 }
 </script>
+
+<style scoped>
+.max300 {
+  max-height: 400px !important;
+  overflow: scroll;
+}
+</style>

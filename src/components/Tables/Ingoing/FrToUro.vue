@@ -1,19 +1,12 @@
 <template>
-  <div>
+  <div class="max300">
     <md-table v-model="users" :table-header-color="tableHeaderColor">
       <md-table-row slot="md-table-row" slot-scope="{ item }">
+        <md-table-cell md-label="Time Date">{{ item.time_date }}</md-table-cell>
         <md-table-cell md-label="Tracking No.">{{ item.tracking_number }}</md-table-cell>
         <md-table-cell md-label="Research Title">{{ item.title }}</md-table-cell>
-        <md-table-cell md-label="Grade in Colloquium">{{ item.gradeCol }}</md-table-cell>
-        <md-table-cell md-label="Grade in InHouse Review">{{ item.gradeIn }}</md-table-cell>
-        <md-table-cell md-label="Incentive">{{ item.incentive }}</md-table-cell>
-        <md-table-cell md-label="University Agenda">{{ item.univAgenda }}</md-table-cell>
-        <md-table-cell md-label="Funding Type">{{ item.funding }}</md-table-cell>
         <md-table-cell md-label="Action">
-          <md-button class="md-just-icon md-simple md-primary">
-            <md-icon>get_app</md-icon>
-            <md-tooltip md-direction="bottom">Download</md-tooltip>
-          </md-button>
+          <md-button class="md-raised md-success">Receive</md-button>
         </md-table-cell>
       </md-table-row>
     </md-table>
@@ -22,7 +15,7 @@
 
 <script>
 export default {
-  name: 'college-research',
+  name: 'fr-to-uro',
   props: {
     tableHeaderColor: {
       type: String,
@@ -62,3 +55,10 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.max300 {
+  max-height: 500px !important;
+  overflow: scroll;
+}
+</style>

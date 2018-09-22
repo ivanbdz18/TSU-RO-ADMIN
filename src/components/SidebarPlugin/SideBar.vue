@@ -1,10 +1,12 @@
 <template>
-  <div class="sidebar">
+  <div class="sidebar" :data-color="activeColor" :style="sidebarStyle">
     <div class="logo">
       <a href="#" class="simple-text logo-mini">
         <div class="logo-img">
+            <img :src="imgLogo" alt="">
         </div>
       </a>
+
       <a class="simple-text logo-normal">
         {{title}}
       </a>
@@ -36,15 +38,15 @@ export default{
   props: {
     title: {
       type: String,
-      default: 'TSU-RO'
+      default: 'TSU - Research Office (admin)'
     },
     imgLogo: {
       type: String,
-      default: require('@/assets/img/vue-logo.png')
+      default: require('@/assets/img/new_logo.png')
     },
     activeColor: {
       type: String,
-      default: 'green',
+      default: 'orange',
       validator: (value) => {
         let acceptedValues = ['', 'purple', 'blue', 'green', 'orange', 'red']
         return acceptedValues.indexOf(value) !== -1

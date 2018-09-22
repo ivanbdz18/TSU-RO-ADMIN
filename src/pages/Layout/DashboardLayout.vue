@@ -6,7 +6,7 @@
       <mobile-menu slot="content"></mobile-menu>
       <sidebar-link to="/dashboard">
         <md-icon>dashboard</md-icon>
-        <p>Dashboard</p>
+        <p class="md-body-2">Dashboard</p>
       </sidebar-link>
       <sidebar-link to="/ingoing">
         <md-icon>vertical_align_bottom</md-icon>
@@ -28,10 +28,6 @@
         <md-icon>person</md-icon>
         <p>Accounts</p>
       </sidebar-link>
-      <sidebar-link to="/notifications">
-        <md-icon>notifications</md-icon>
-        <p>Notifications</p>
-      </sidebar-link>
     </side-bar>
 
     <div class="main-panel">
@@ -44,7 +40,9 @@
   </div>
 </template>
 <style lang="scss">
-
+   .sidebar .nav p {
+    font-weight: 500;
+}
 </style>
 <script>
 import TopNavbar from './TopNavbar.vue'

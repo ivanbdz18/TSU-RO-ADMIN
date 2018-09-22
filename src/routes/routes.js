@@ -8,6 +8,11 @@ import Accounts from '@/pages/Accounts.vue'
 import Forms from '@/pages/Forms.vue'
 import Typography from '@/pages/Typography.vue'
 import Notifications from '@/pages/Notifications.vue'
+import Tracking from '@/pages/Tracking.vue'
+import ResList from '@/pages/ResList.vue'
+import Comment from '@/pages/Comment.vue'
+import ProgressReport from '@/pages/ProgressReport.vue'
+import FullResDetail from '@/pages/FullResDetail.vue'
 
 const routes = [
   {
@@ -44,6 +49,31 @@ const routes = [
         path: 'forms',
         name: 'Forms',
         component: Forms
+      },
+      {
+        path: 'tracking',
+        name: 'Tracking',
+        component: Tracking
+      },
+      {
+        path: 'comment',
+        name: 'Comment',
+        component: Comment
+      },
+      {
+        path: 'fullresdetail',
+        name: 'Full Research Detail',
+        component: FullResDetail
+      },
+      {
+        path: 'progressreport',
+        name: 'Progress Report',
+        component: ProgressReport
+      },
+      {
+        path: 'reslist',
+        name: 'Research list',
+        component: ResList
       },
       {
         path: 'typography',

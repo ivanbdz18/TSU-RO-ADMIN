@@ -15,7 +15,7 @@
 
 <script>
 export default {
-  name: 'ingoing-table',
+  name: 'fr-to-uro2',
   props: {
     tableHeaderColor: {
       type: String,
@@ -58,7 +58,7 @@ export default {
 
 <style scoped>
 .max300 {
-  max-height: 300px !important;
+  max-height: 500px !important;
   overflow: scroll;
 }
 </style>
