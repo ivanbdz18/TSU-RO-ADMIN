@@ -42,7 +42,7 @@ export default{
     },
     imgLogo: {
       type: String,
-      default: require('@/assets/img/new_logo.png')
+      default: require('@/assets/img/tsu-logo.png')
     },
     activeColor: {
       type: String,

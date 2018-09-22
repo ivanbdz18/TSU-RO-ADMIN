@@ -7,7 +7,6 @@
         <md-table-cell md-label="Research Title">{{ item.title }}</md-table-cell>
         <md-table-cell md-label="Grade in Colloquium">{{ item.gradeCol }}</md-table-cell>
         <md-table-cell md-label="Grade in UREC">{{ item.gradeUrec }}</md-table-cell>
-        <md-table-cell md-label="Incentive">{{ item.incentive }}</md-table-cell>
         <md-table-cell md-label="University Agenda">{{ item.univAgenda }}</md-table-cell>
         <md-table-cell md-label="Funding Type">
           <md-field>

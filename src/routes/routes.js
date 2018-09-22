@@ -1,4 +1,5 @@
 import DashboardLayout from '@/pages/Layout/DashboardLayout.vue'
+import LoginLayout from '@/pages/Layout/LoginLayout.vue'
 
 import Dashboard from '@/pages/Dashboard.vue'
 import Ingoing from '@/pages/Ingoing.vue'
@@ -13,8 +14,33 @@ import ResList from '@/pages/ResList.vue'
 import Comment from '@/pages/Comment.vue'
 import ProgressReport from '@/pages/ProgressReport.vue'
 import FullResDetail from '@/pages/FullResDetail.vue'
+import Terms from '@/pages/Terms.vue'
+import Login from '@/pages/Login.vue'
+import PasswordChange from '@/pages/PasswordChange.vue'
 
 const routes = [
+  {
+    path: '/',
+    component: LoginLayout,
+    redirect: '/login',
+    children: [
+      {
+        path: 'login',
+        name: 'Login',
+        component: Login
+      },
+      {
+        path: 'terms',
+        name: 'Terms',
+        component: Terms
+      },
+      {
+        path: 'pwdchange',
+        name: 'change',
+        component: PasswordChange
+      }
+    ]
+  },
   {
     path: '/',
     component: DashboardLayout,

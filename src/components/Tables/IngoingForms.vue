@@ -22,7 +22,7 @@
           <md-button class="md-raised md-success">Approve</md-button> <!--notify sender na na'approve request nia-->
           <md-button class="md-raised md-danger">Disapprove</md-button> <!--notify sender na na'disapprove request nia-->
         </md-table-cell>
-      </md-table-row>
+      </md-table-row>>
     </md-table>
   </div>
 </template>

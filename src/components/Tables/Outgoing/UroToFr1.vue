@@ -12,12 +12,6 @@
               <md-input v-model="item.gradeUrec" type="text"></md-input>
           </md-field>
         </md-table-cell> <!-- need mag input -->
-        <md-table-cell md-label="Incentive">
-          <md-field>
-              <label>Input incentive</label>
-              <md-input v-model="item.incentive" type="text"></md-input>
-          </md-field>
-        </md-table-cell> <!-- need mag input -->
         <md-table-cell md-label="University Agenda">
           <md-field>
               <label for="agenda">Agenda</label>

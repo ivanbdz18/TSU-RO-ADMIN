@@ -1,10 +1,8 @@
 // Cards
-import UserCard from '../pages/UserProfile/UserCard.vue'
 
 // Forms
-import EditProfileForm from '../pages/UserProfile/EditProfileForm.vue'
+import EditPassword from '../pages/EditPassword.vue'
 
 export {
-  UserCard,
-  EditProfileForm
+  EditPassword
 }
