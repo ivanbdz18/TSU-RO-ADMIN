@@ -20,6 +20,10 @@
             <md-icon>vertical_align_top</md-icon>
             <md-tooltip md-direction="bottom">Update/Replace</md-tooltip>
           </md-button>
+          <md-button class="md-just-icon md-simple md-danger">
+            <md-icon>delete_forever</md-icon>
+            <md-tooltip md-direction="bottom">Delete</md-tooltip>
+          </md-button>
         </md-table-cell>
       </md-table-row>
     </md-table>

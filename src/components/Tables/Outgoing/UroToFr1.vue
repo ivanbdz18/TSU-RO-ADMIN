@@ -26,10 +26,17 @@
               </md-select>
             </md-field>
         </md-table-cell> <!-- need mag input (dropdown)-->
-        <md-table-cell md-label="Comment">
-          <md-button to="/comment" class="md-raised md-success">Comment</md-button>
+        <md-table-cell md-label="Actions">
+          <md-button class="md-just-icon md-simple md-primary">
+            <md-icon>get_app</md-icon>
+            <md-tooltip md-direction="top">Download</md-tooltip> <!--notify sender na na'receive request nia-->
+          </md-button>
+          <md-button to="/comment" class="md-just-icon md-simple md-primary">
+            <md-icon>add_comment</md-icon>
+            <md-tooltip md-direction="top">Comment</md-tooltip>
+          </md-button>
         </md-table-cell>
-        <md-table-cell md-label="Action">
+        <md-table-cell md-label="Proceed">
           <md-button class="md-raised md-success">Proceed</md-button>
         </md-table-cell>
       </md-table-row>

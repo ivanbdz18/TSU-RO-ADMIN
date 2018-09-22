@@ -32,6 +32,7 @@ import FrToUro2 from './Tables/Ingoing/FrToUro2.vue'
 import ResearchList from './Tables/ResearchList.vue'
 import ProgReport from './Tables/ProgReport.vue'
 import UpResDet from './Tables/UpResDet.vue'
+import AddForm from './Tables/AddForm.vue'
 
 export {
   ChartCard,
@@ -64,5 +65,6 @@ export {
   FrToUro2,
   ResearchList,
   ProgReport,
-  UpResDet
+  UpResDet,
+  AddForm
 }
