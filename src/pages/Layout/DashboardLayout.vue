@@ -25,8 +25,12 @@
         <p>Research</p>
       </sidebar-link>
       <sidebar-link to="/accounts">
-        <md-icon>person</md-icon>
+        <md-icon>account_box</md-icon>
         <p>Accounts</p>
+      </sidebar-link>
+      <sidebar-link to="/profile">
+        <md-icon>person</md-icon>
+        <p>Profile</p>
       </sidebar-link>
     </side-bar>
 

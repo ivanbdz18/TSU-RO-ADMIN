@@ -1,6 +1,6 @@
 <template>
   <div>
-    <md-button @click="goBack" class="md-raised md-success">Go Back</md-button>
+    <md-button @click="goBack" class="md-raised md-danger">Go Back</md-button>
     <md-table v-model="users" :table-header-color="tableHeaderColor">
       <md-table-row slot="md-table-row" slot-scope="{ item }">
         <md-table-cell md-label="Track No.">{{ item.track }}</md-table-cell>
@@ -25,7 +25,7 @@
   </div>
 </template>
 
-<script>
+<script> // TODO
 export default {
   name: 'research-list',
   data () {

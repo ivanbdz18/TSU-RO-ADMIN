@@ -3,11 +3,11 @@
     <div class="md-layout">
       <div class="md-layout-item md-medium-size-100 md  -xsmall-size-100 md-size-100">
         <md-card>
-          <md-card-header data-background-color="green">
-            <h4 class="md-title">Update Research Detail</h4>
+          <md-card-header data-background-color="orange">
+            <h4 class="md-title">Account List</h4>
           </md-card-header>
           <md-card-content>
-            <up-res-det class="md-body-2" table-header-color="blue"></up-res-det>
+            <drc-acc-list class="md-body-2" table-header-color="orange"></drc-acc-list>
           </md-card-content>
         </md-card>
       </div>
@@ -17,12 +17,12 @@
 
 <script>
 import {
-  UpResDet
+  DrcAccList
 } from '@/components'
 
 export default{
   components: {
-    UpResDet
+    DrcAccList
   },
   data () {
     return {

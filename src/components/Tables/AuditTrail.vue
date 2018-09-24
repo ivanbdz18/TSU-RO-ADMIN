@@ -18,7 +18,7 @@
 }
 </style>
 
-<script>
+<script> //TODO
 export default {
   name: 'audit-trail',
   props: {
@@ -32,51 +32,51 @@ export default {
       selected: [],
       users: [
         {
-          user_id: '2015101343',
-          user_name: 'ivan',
+          user_id: '15-12056',
+          user_name: 'Ivan Badbaden',
           time_date: '1:15:22 02/15/18',
           transaction: 'Login'
         },
         {
-          user_id: '2015102547',
-          user_name: 'michelle',
+          user_id: '12-85695',
+          user_name: 'Michelle Quibuyen',
           time_date: '5:30:12 01/08/18',
-          transaction: 'Logout'
+          transaction: 'Login'
         },
         {
-          user_id: '2015202345',
-          user_name: 'nomar',
+          user_id: '17-01382',
+          user_name: 'Nomar Lapitan',
           time_date: '10:30:02 12/15/17',
+          transaction: 'Update Profile'
+        },
+        {
+          user_id: '05-20159',
+          user_name: 'Anjeanette Francia',
+          time_date: '11:20:02 12/15/17',
+          transaction: 'Received the documents'
+        },
+        {
+          user_id: '11-85469',
+          user_name: 'Isaiah Cruz',
+          time_date: '10:30:15 12/15/17',
+          transaction: 'Uploaded a file'
+        },
+        {
+          user_id: '16-85231',
+          user_name: 'Janielle Viadan',
+          time_date: '10:30:13 12/15/17',
+          transaction: 'Created account'
+        },
+        {
+          user_id: '11-82545',
+          user_name: 'Kevein Morales',
+          time_date: '05:18:45 12/12/17',
           transaction: 'update profile'
         },
         {
-          user_id: '2015202345',
-          user_name: 'nomar',
-          time_date: '10:30:02 12/15/17',
-          transaction: 'update profile'
-        },
-        {
-          user_id: '2015202345',
-          user_name: 'nomar',
-          time_date: '10:30:02 12/15/17',
-          transaction: 'update profile'
-        },
-        {
-          user_id: '2015202345',
-          user_name: 'nomar',
-          time_date: '10:30:02 12/15/17',
-          transaction: 'update profile'
-        },
-        {
-          user_id: '2015202345',
-          user_name: 'nomar',
-          time_date: '10:30:02 12/15/17',
-          transaction: 'update profile'
-        },
-        {
-          user_id: '2015202345',
-          user_name: 'nomar',
-          time_date: '10:30:02 12/15/17',
+          user_id: '16-24684',
+          user_name: 'Erandy Magdaleno',
+          time_date: '05:20:25 12/15/17',
           transaction: 'update profile'
         },
         {

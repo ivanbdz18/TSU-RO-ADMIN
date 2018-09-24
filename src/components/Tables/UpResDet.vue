@@ -4,6 +4,11 @@
                   <md-table-row slot="md-table-row" slot-scope="{ item }">
                   <md-table-cell md-label="Tracking No.">{{ item.tracking_number }}</md-table-cell>
                   <md-table-cell md-label="Research Title">{{ item.title }}</md-table-cell>
+                  <md-table-cell md-label="Authors">{{ item.authors }}</md-table-cell>
+                  </md-table-row>
+    </md-table>
+    <md-table v-model="users" table-header-color="orange">
+      <md-table-row slot="md-table-row" slot-scope="{ item }">
                   <md-table-cell md-label="Grade in Colloquium">{{ item.gradeCol }}</md-table-cell>
                   <md-table-cell md-label="Grade in UREC">
                     <md-field>
@@ -22,6 +27,15 @@
                 <md-option value="Public Policy and Social Praxis">Public Policy and Social Praxis</md-option>
                 <md-option value="Design and Validation of Software">Design and Validation of Software</md-option>
                 <md-option value="Gender and Development Studies">Gender and Development Studies</md-option>
+              </md-select>
+                  </md-field>
+                  </md-table-cell>
+                  <md-table-cell md-label="Funding Type">
+                    <md-field>
+              <label for="Funding">Funding</label>
+              <md-select v-model="univAgenda" name="agenda" id="agenda">
+                <md-option value="Internal Funding">Internal Funding</md-option>
+                <md-option value="External Funding">External Funding</md-option>
               </md-select>
                   </md-field>
                   </md-table-cell>
@@ -62,10 +76,11 @@
       </md-table-row>
             </md-table>
           <md-button class="md-raised md-success">Update</md-button>
+          <md-button @click="goBack" class="md-raised md-danger">Go Back</md-button>
   </div>
 </template>
 
-<script>
+<script> // TODO
 export default {
   name: 'up-res-det',
   props: {
@@ -85,6 +100,11 @@ export default {
           gradeCol: null
         }
       ]
+    }
+  },
+  methods: {
+    goBack: function () {
+      this.$router.go(-1)
     }
   }
 }

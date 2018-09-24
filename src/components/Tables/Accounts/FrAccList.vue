@@ -6,7 +6,7 @@
         <md-table-cell md-label="First Name">{{ item.fname }}</md-table-cell>
         <md-table-cell md-label="Middle Name">{{ item.mname }}</md-table-cell>
         <md-table-cell md-label="Last Name">{{ item.lname }}</md-table-cell>
-        <md-table-cell md-label="College & Department">{{ item.college_dept }}</md-table-cell>
+        <md-table-cell md-label="College">{{ item.college }}</md-table-cell> <!--names of offices like CCS, CET, and CAFA -->
         <md-table-cell md-label="Email">{{ item.email }}</md-table-cell>
         <md-table-cell md-label="Contact Number">{{ item.contact_number }}</md-table-cell>
       </md-table-row>
@@ -14,9 +14,9 @@
   </div>
 </template>
 
-<script>
+<script> // TODO
 export default {
-  name: 'acc-drc',
+  name: 'fr-acc-list',
   props: {
     tableHeaderColor: {
       type: String,

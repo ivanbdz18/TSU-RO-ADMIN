@@ -17,6 +17,11 @@ import FullResDetail from '@/pages/FullResDetail.vue'
 import Terms from '@/pages/Terms.vue'
 import Login from '@/pages/Login.vue'
 import PasswordChange from '@/pages/PasswordChange.vue'
+import Profile from '@/pages/Profile.vue'
+
+import FrList from '@/pages/AccList/FrList.vue'
+import DrcList from '@/pages/AccList/DrcList.vue'
+import OfficeList from '@/pages/AccList/OfficeList.vue'
 
 const routes = [
   {
@@ -72,6 +77,11 @@ const routes = [
         component: Accounts
       },
       {
+        path: 'profile',
+        name: 'Profile',
+        component: Profile
+      },
+      {
         path: 'forms',
         name: 'Forms',
         component: Forms
@@ -88,7 +98,7 @@ const routes = [
       },
       {
         path: 'fullresdetail',
-        name: 'Full Research Detail',
+        name: 'Update Research Detail',
         component: FullResDetail
       },
       {
@@ -100,6 +110,21 @@ const routes = [
         path: 'reslist',
         name: 'Research list',
         component: ResList
+      },
+      {
+        path: 'fracclist',
+        name: 'Faculty Researcher List',
+        component: FrList
+      },
+      {
+        path: 'drcacclist',
+        name: 'Department Research Chairperson List',
+        component: OfficeList
+      },
+      {
+        path: 'drcacclist',
+        name: 'Office Clerk List',
+        component: DrcList
       },
       {
         path: 'typography',

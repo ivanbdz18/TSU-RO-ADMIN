@@ -12,9 +12,9 @@ import UroToFr1 from './Tables/Outgoing/UroToFr1.vue'
 import UroToFr2 from './Tables/Outgoing/UroToFr2.vue'
 import UroToOup from './Tables/Outgoing/UroToOup.vue'
 import FormsTable from './Tables/FormsTable.vue'
-import AccDrc from './Tables/Accounts/AccDrc.vue'
-import OfficeClerk from './Tables/Accounts/OfficeClerk.vue'
-import CollegeClerk from './Tables/Accounts/CollegeClerk.vue'
+import FrAccList from './Tables/Accounts/FrAccList.vue'
+import DrcAccList from './Tables/Accounts/DrcAccList.vue'
+import OfficeAccList from './Tables/Accounts/OfficeAccList.vue'
 import CcsDept from './Tables/CollRes/CcsDept.vue'
 import CafaDept from './Tables/CollRes/CafaDept.vue'
 import CcjeDept from './Tables/CollRes/CcjeDept.vue'
@@ -33,6 +33,9 @@ import ResearchList from './Tables/ResearchList.vue'
 import ProgReport from './Tables/ProgReport.vue'
 import UpResDet from './Tables/UpResDet.vue'
 import AddForm from './Tables/AddForm.vue'
+import EditProfileForm from './Tables/Update/EditProfileForm.vue'
+import UserCard from './Tables/Update/UserCard.vue'
+import AccountList from './Tables/Accounts/AccountList.vue'
 
 export {
   ChartCard,
@@ -46,9 +49,9 @@ export {
   UroToFr2,
   UroToOup,
   FormsTable,
-  AccDrc,
-  OfficeClerk,
-  CollegeClerk,
+  FrAccList,
+  DrcAccList,
+  OfficeAccList,
   CcsDept,
   CosDept,
   CcjeDept,
@@ -66,5 +69,8 @@ export {
   ResearchList,
   ProgReport,
   UpResDet,
-  AddForm
+  AddForm,
+  EditProfileForm,
+  UserCard,
+  AccountList
 }

@@ -54,28 +54,19 @@ export default {
           forms: 'TSU-URO-SF-03 Researcher’s Profile Form'
         },
         {
-          forms: 'TSU-URO-SF-04 Request for Incentive of Research Output'
-        },
-        {
-          forms: 'TSU-URO-SF-06 Submission of Completed Researches for In-House'
-        },
-        {
-          forms: 'TSU-URO-SF-07 Authenticity of Authorship & Commitment to Revise'
+          forms: 'TSU-URO-SF-05 UREC Evaluation'
         },
         {
           forms: 'TSU-URO-SF-11 Research Status Monitoring Form'
         },
         {
-          forms: 'TSU-URO-SF-16 Turnitin Software Application Form'
-        },
-        {
-          forms: 'TSU-URO-SF-19 Request of Fund for Research Related Activity'
-        },
-        {
-          forms: 'TSU-URO-SF-24 Research Revision Report'
-        },
-        {
           forms: 'TSU-URO-SF-26 College Research Evaluation Committee Form (SocSci)'
+        },
+        {
+          forms: 'TSU-URO-SF-29 Notice of Research Proposal Disapproval'
+        },
+        {
+          forms: 'TSU-URO-SF-30 Notice to Proceed'
         },
         {
           forms: 'TSU-URO-SF-32 Revised Research Capsule Proposal'
@@ -88,21 +79,6 @@ export default {
         },
         {
           forms: 'TSU-URO-SF-36 Summary of Evaluators Suggestions and Ratings'
-        },
-        {
-          forms: 'TSU-URO-SF-39 Appointment Form'
-        },
-        {
-          forms: 'TSU-URO-SF-40 Consultation Report Form'
-        },
-        {
-          forms: 'TSU-URO-SF-41 Request for Funding of Paper Publication'
-        },
-        {
-          forms: 'TSU-URO-SF-42 Request for Funding of Paper Presentation'
-        },
-        {
-          forms: 'TSU-URO-SF-44 Tracer Study Questionnaire'
         },
         {
           forms: 'TSU-URO-SF-45 Turnitin Run Request Form'

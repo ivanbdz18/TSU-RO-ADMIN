@@ -14,9 +14,9 @@
   </div>
 </template>
 
-<script>
+<script> //TODO
 export default {
-  name: 'college-clerk',
+  name: 'drc-acc-list',
   props: {
     tableHeaderColor: {
       type: String,
