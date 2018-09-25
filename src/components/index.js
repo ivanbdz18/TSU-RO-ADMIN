@@ -27,17 +27,19 @@ import CassDept from './Tables/CollRes/CassDept.vue'
 import TrackTable from './Tables/Tracking/TrackTable.vue'
 import Comments from './Tables/Comments.vue'
 import ResFromUrec from './Tables/Ingoing/ResFromUrec.vue'
-import OupToUro from './Tables/Ingoing/OupToUro.vue'
 import FrToUro2 from './Tables/Ingoing/FrToUro2.vue'
+import FrToUro from './Tables/Ingoing/FrToUro.vue'
 import ResearchList from './Tables/ResearchList.vue'
 import ProgReport from './Tables/ProgReport.vue'
 import UpResDet from './Tables/UpResDet.vue'
 import AddForm from './Tables/AddForm.vue'
+import ResFromOup from './Tables/Ingoing/ResFromOup.vue'
 
 export {
   ChartCard,
   NavTabsCard,
   StatsCard,
+  ResFromOup,
   AuditTrail,
   SimpleTable,
   IngoingForms,
@@ -61,8 +63,8 @@ export {
   TrackTable,
   Comments,
   ResFromUrec,
-  OupToUro,
   FrToUro2,
+  FrToUro,
   ResearchList,
   ProgReport,
   UpResDet,

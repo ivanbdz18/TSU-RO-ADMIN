@@ -1,6 +1,6 @@
 <template>
   <div class="max300">
-    <md-table v-model="users" table-header-color="orange">
+    <md-table v-model="documentsState14" table-header-color="orange">
       <md-table-row slot="md-table-row" slot-scope="{ item }">
         <md-table-cell md-label="Time Date">{{ item.time_date }}</md-table-cell>
         <md-table-cell md-label="Tracking No.">{{ item.tracking_number }}</md-table-cell>
@@ -28,7 +28,7 @@
           </md-button>
         </md-table-cell>
         <md-table-cell md-label="Proceed">
-          <md-button class="md-raised md-success">Proceed</md-button>
+          <md-button class="md-raised md-success" @click.native="proceed(item.id)">Proceed</md-button>
         </md-table-cell>
       </md-table-row>
     </md-table>
@@ -36,6 +36,8 @@
 </template>
 
 <script>
+import axios from 'axios'
+
 export default {
   name: 'uro-to-fr2',
   props: {
@@ -47,48 +49,23 @@ export default {
   data () {
     return {
       selected: [],
-      users: [
-        {
-          time_date: null,
-          tracking_number: null,
-          title: null,
-          gradeCol: null,
-          gradeIn: null,
-          incentive: null,
-          univAgenda: null,
-          funding: null
-        },
-        {
-          time_date: null,
-          tracking_number: null,
-          title: null,
-          gradeCol: null,
-          gradeIn: null,
-          incentive: null,
-          univAgenda: null,
-          funding: null
-        },
-        {
-          time_date: null,
-          tracking_number: null,
-          title: null,
-          gradeCol: null,
-          gradeIn: null,
-          incentive: null,
-          univAgenda: null,
-          funding: null
-        },
-        {
-          time_date: null,
-          tracking_number: null,
-          title: null,
-          gradeCol: null,
-          gradeIn: null,
-          incentive: null,
-          univAgenda: null,
-          funding: null
-        }
-      ]
+      documents: [],
+      documentsState14: []
+    }
+  },
+  created: async function () {
+    await this.getDocuments()
+  },
+  methods: {
+    proceed: async function (documentId) {
+      const rootApi = process.env.VUE_APP_ROOT_API
+      await axios.post(`${rootApi}/documents/${documentId}/release`)
+      await this.getDocuments()
+    },
+    getDocuments: async function () {
+      const rootApi = process.env.VUE_APP_ROOT_API
+      this.documents = (await axios.get(`${rootApi}/documents`)).data
+      this.documentsState14 = this.documents.filter(d => d.state === 14 && d.received !== null)
     }
   }
 }
@@ -96,7 +73,7 @@ export default {
 
 <style scoped>
 .max300 {
-  max-height: 500px !important;
+  max-height: 300px !important;
   overflow: scroll;
 }
 </style>
