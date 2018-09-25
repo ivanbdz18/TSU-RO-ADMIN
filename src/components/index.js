@@ -26,7 +26,7 @@ import CoedDept from './Tables/CollRes/CoedDept.vue'
 import CassDept from './Tables/CollRes/CassDept.vue'
 import TrackTable from './Tables/Tracking/TrackTable.vue'
 import Comments from './Tables/Comments.vue'
-import FrToUro from './Tables/Ingoing/FrToUro.vue'
+import ResFromUrec from './Tables/Ingoing/ResFromUrec.vue'
 import OupToUro from './Tables/Ingoing/OupToUro.vue'
 import FrToUro2 from './Tables/Ingoing/FrToUro2.vue'
 import ResearchList from './Tables/ResearchList.vue'
@@ -60,7 +60,7 @@ export {
   CoedDept,
   TrackTable,
   Comments,
-  FrToUro,
+  ResFromUrec,
   OupToUro,
   FrToUro2,
   ResearchList,

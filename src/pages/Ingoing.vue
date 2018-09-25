@@ -7,7 +7,7 @@
             <h4 class="md-title">Ingoing Research From Faculty Researcher</h4>
           </md-card-header>
           <md-card-content class="md-body-2">
-            <fr-to-uro class="md-body-2" table-header-color="orange"></fr-to-uro>
+            <res-from-urec class="md-body-2" table-header-color="orange"></res-from-urec>
           </md-card-content>
         </md-card>
       </div>
@@ -37,16 +37,16 @@
 
 <script>
 import {
-  FrToUro,
+  ResFromUrec,
   OupToUro,
-  FrToUro2
+  ResFromUrec2
 } from '@/components'
 
 export default{
   components: {
-    FrToUro,
+    ResFromUrec,
     OupToUro,
-    FrToUro2
+    ResFromUrec2
   },
   data () {
     return {
