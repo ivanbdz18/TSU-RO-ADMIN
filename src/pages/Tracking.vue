@@ -8,7 +8,7 @@
             <p class="category">The tracking system is a step by step process</p>
           </md-card-header>
           <div class="md-layout-item md-size-100 text-right">
-          <md-button @click="goBack" class="md-raised md-success">Go Back</md-button>
+          <md-button @click="goBack" class="md-raised md-danger">Go Back</md-button>
       </div>
           <md-card-content>
             <track-table class="md-body-2" table-header-color="orange"></track-table>

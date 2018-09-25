@@ -13,14 +13,14 @@
               <md-input v-model="id_number" type="text" disabled></md-input>
             </md-field>
           </div>
-          <div class="md-layout-item">
+          <!-- <div class="md-layout-item">
             <md-field>
               <label for="college">College and Department</label>
               <md-select v-model="dac" name="dac" id="dac" disabled>
                 <md-option value="CCS - Information Technology Department">CCS - Information Technology Department</md-option>
               </md-select>
             </md-field>
-          </div>
+          </div> -->
           <div class="md-layout-item md-small-size-100 md-size-33">
             <md-field>
               <label>First Name</label>
@@ -79,13 +79,13 @@ export default {
   },
   data () {
     return {
-      id_number: '',
-      lname: '',
-      fname: '',
-      mname: '',
+      id_number: '17-20159',
+      lname: 'Campos',
+      fname: 'Stiffi',
+      mname: 'Ong',
       college: 'College of Computer Studies',
-      email: '',
-      contact_num: '',
+      email: 'stiffi.campos@gmail.com',
+      contact_num: '09773798525',
       nPass: ''
     }
   },

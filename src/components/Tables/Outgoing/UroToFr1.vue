@@ -5,6 +5,7 @@
         <md-table-cell md-label="Time Date">{{ item.time_date }}</md-table-cell>
         <md-table-cell md-label="Tracking No.">{{ item.tracking_number }}</md-table-cell>
         <md-table-cell md-label="Research Title">{{ item.title }}</md-table-cell>
+        <md-table-cell md-label="Authors">{{ item.authors }}</md-table-cell>
         <md-table-cell md-label="Grade in Colloquium">{{ item.gradeCol }}</md-table-cell> <!-- posted dapat di napapalitan -->
         <md-table-cell md-label="Grade in UREC">
           <md-field>
@@ -44,7 +45,7 @@
   </div>
 </template>
 
-<script>
+<script> //TODO
 export default {
   name: 'uro-to-fr1',
   props: {
@@ -58,28 +59,32 @@ export default {
       selected: [],
       users: [
         {
-          time_date: null,
-          tracking_number: null,
-          title: null,
-          gradeCol: null
+          time_date: '02:14:02 05/15/18',
+          tracking_number: '80cd9201-7e2e-457b',
+          title: 'The Impact of Decimalization on Market Volatility and Liquidity ',
+          authors: 'Jamaica Hellen',
+          gradeCol: '85.25'
         },
         {
-          time_date: null,
-          tracking_number: null,
-          title: null,
-          gradeCol: null
+          time_date: '09:25:15 05/11/18',
+          tracking_number: '02kd1239-0d9g-127b',
+          title: 'Exchange Rate Market Pressure and The Quality of Governance ',
+          authors: 'Domino Abella',
+          gradeCol: '75.52'
         },
         {
-          time_date: null,
-          tracking_number: null,
-          title: null,
-          gradeCol: null
+          time_date: '08:52:15 05/08/18',
+          tracking_number: '96sd4513-os9d-748b',
+          title: 'Changes in Perceived Risk and Liquidity Shocks and Its Impact on Risk Premiums ',
+          authors: 'Hannah Dominic',
+          gradeCol: '78.15'
         },
         {
-          time_date: null,
-          tracking_number: null,
-          title: null,
-          gradeCol: null
+          time_date: '11:26:14 04/24/18',
+          tracking_number: '89ks3186-8ss8-asd9',
+          title: 'Can Online Word of Mouth Assign a Product Price? ',
+          authors: 'Phillip Torres',
+          gradeCol: '75.38'
         }
       ]
     }
@@ -89,7 +94,7 @@ export default {
 
 <style scoped>
 .max300 {
-  max-height: 300px !important;
+  max-height: 500px !important;
   overflow: scroll;
 }
 </style>

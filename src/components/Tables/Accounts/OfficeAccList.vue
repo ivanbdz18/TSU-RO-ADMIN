@@ -14,7 +14,7 @@
   </div>
 </template>
 
-<script> //TODO
+<script>
 export default {
   name: 'office-acc-list',
   props: {

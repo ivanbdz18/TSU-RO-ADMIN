@@ -4,7 +4,7 @@
       <md-table-row slot="md-table-row" slot-scope="{ item }">
         <md-table-cell md-label="Accounts">{{ item.accounts }}</md-table-cell>
         <md-table-cell md-label="Action">
-          <md-button to="reslist" class="md-just-icon md-simple md-primary">
+          <md-button class="md-just-icon md-simple md-primary">
             <md-icon>remove_red_eye</md-icon>
             <md-tooltip md-direction="bottom">View</md-tooltip>
           </md-button>
@@ -14,7 +14,7 @@
   </div>
 </template>
 
-<script> // TODO
+<script>
 export default {
   name: 'account-list',
   props: {

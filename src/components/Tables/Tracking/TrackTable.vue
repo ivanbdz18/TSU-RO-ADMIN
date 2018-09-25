@@ -245,7 +245,7 @@
   </div>
 </template>
 
-<script>
+<script> // TODO
 import {
   CcsDept
 } from '@/components'
@@ -261,7 +261,7 @@ export default {
       users: [
         {
           posted: '01/01/2018 12:30pm',
-          released: '01/01/2018 12:30pm',
+          released: '01/15/2018 12:30:02',
           comments: 'Hello World'
         }
       ]

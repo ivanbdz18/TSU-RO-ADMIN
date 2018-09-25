@@ -14,7 +14,7 @@
   </div>
 </template>
 
-<script> //TODO
+<script>
 export default {
   name: 'drc-acc-list',
   props: {

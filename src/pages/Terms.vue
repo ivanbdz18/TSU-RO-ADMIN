@@ -148,7 +148,7 @@
     </div>
   </div>
 </template>
-<script>
+<script> // TODO
 import axios from 'axios'
 import store from './../stores/store'
 

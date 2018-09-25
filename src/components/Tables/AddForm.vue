@@ -25,6 +25,7 @@
     </md-card>
   </form>
 </template>
+
 <script>
 export default {
   name: 'add-form',

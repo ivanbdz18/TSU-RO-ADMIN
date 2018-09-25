@@ -10,7 +10,7 @@
             </md-field>
           </div>
           <div class="md-layout-item md-size-100 text-right">
-            <md-button @click="goBack" class="md-raised md-success">Go Back</md-button>
+            <md-button @click="goBack" class="md-raised md-danger">Go Back</md-button>
             <md-button class="md-raised md-success">Send</md-button>
           </div>
         </div>

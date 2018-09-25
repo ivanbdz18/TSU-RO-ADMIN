@@ -10,7 +10,7 @@
       </sidebar-link>
       <sidebar-link to="/ingoing">
         <md-icon>vertical_align_bottom</md-icon>
-        <p>Ingoing Research</p>
+        <p>Incoming Research</p>
       </sidebar-link>
       <sidebar-link to="/outgoing">
         <md-icon>vertical_align_top</md-icon>
