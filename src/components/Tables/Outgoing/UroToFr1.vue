@@ -63,7 +63,7 @@ export default {
     }
   },
   created: async function () {
-  await this.getDocuments()
+    await this.getDocuments()
   },
   methods: {
     proceed: async function (documentId) {

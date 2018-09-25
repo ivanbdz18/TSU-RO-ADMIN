@@ -3,6 +3,10 @@ import ChartCard from './Cards/ChartCard.vue'
 import NavTabsCard from './Cards/NavTabsCard.vue'
 import StatsCard from './Cards/StatsCard.vue'
 
+import EditProfileForm from './Tables/Update/EditProfileForm.vue'
+import UserCard from './Tables/Update/UserCard.vue'
+import AccountList from './Tables/Accounts/AccountList.vue'
+
 // Tables
 import AuditTrail from './Tables/AuditTrail.vue'
 import SimpleTable from './Tables/SimpleTable.vue'
@@ -73,25 +77,13 @@ import TvteDept from './Tables/CollRes/COED/TvteDept.vue'
 
 import TrackTable from './Tables/Tracking/TrackTable.vue'
 import Comments from './Tables/Comments.vue'
-<<<<<<< HEAD
-import ResFromFr from './Tables/Ingoing/ResFromFr.vue'
-import OupToUro from './Tables/Ingoing/OupToUro.vue'
-=======
 import ResFromUrec from './Tables/Ingoing/ResFromUrec.vue'
->>>>>>> 16c1a65dc68a8ccf48e8db9e421cc11dc2764a08
 import FrToUro2 from './Tables/Ingoing/FrToUro2.vue'
-import FrToUro from './Tables/Ingoing/FrToUro.vue'
 import ResearchList from './Tables/ResearchList.vue'
 import ProgReport from './Tables/ProgReport.vue'
 import UpResDet from './Tables/UpResDet.vue'
 import AddForm from './Tables/AddForm.vue'
-<<<<<<< HEAD
-import EditProfileForm from './Tables/Update/EditProfileForm.vue'
-import UserCard from './Tables/Update/UserCard.vue'
-import AccountList from './Tables/Accounts/AccountList.vue'
-=======
 import ResFromOup from './Tables/Ingoing/ResFromOup.vue'
->>>>>>> 16c1a65dc68a8ccf48e8db9e421cc11dc2764a08
 
 export {
   ChartCard,
@@ -156,14 +148,8 @@ export {
   TvteDept,
   TrackTable,
   Comments,
-<<<<<<< HEAD
-  ResFromFr,
-  OupToUro,
-=======
   ResFromUrec,
->>>>>>> 16c1a65dc68a8ccf48e8db9e421cc11dc2764a08
   FrToUro2,
-  FrToUro,
   ResearchList,
   ProgReport,
   UpResDet,
