@@ -20,7 +20,7 @@
         <md-table-cell md-label="Actions">
           <md-button class="md-just-icon md-simple md-primary">
             <md-icon>get_app</md-icon>
-            <md-tooltip md-direction="top">Download</md-tooltip> <!--notify sender na na'receive request nia-->
+            <md-tooltip md-direction="top">Download</md-tooltip>
           </md-button>
           <md-button to="/comment" class="md-just-icon md-simple md-primary">
             <md-icon>add_comment</md-icon>

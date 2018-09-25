@@ -2,7 +2,7 @@
   <div class="max300">
     <md-table v-model="documentsState8" table-header-color="orange">
       <md-table-row slot="md-table-row" slot-scope="{ item }">
-        <md-table-cell md-label="Time Date">{{ item.received }}</md-table-cell>
+        <md-table-cell md-label="Time Date">{{ item.time_date }}</md-table-cell>
         <md-table-cell md-label="Tracking No.">{{ item.tracking_number }}</md-table-cell>
         <md-table-cell md-label="Research Title">{{ item.title }}</md-table-cell>
         <md-table-cell md-label="Grade in Colloquium">{{ item.gradeCol }}</md-table-cell> <!-- posted dapat di napapalitan -->
