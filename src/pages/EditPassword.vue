@@ -51,8 +51,9 @@ export default {
         new_pwd: this.nPass
       }
       try {
-        await axios.post(`http://172.16.1.63:3000/users/${userId}/new-password`, data)
-        this.$router.push('/documents')
+        const rootApi = process.env.VUE_APP_ROOT_API
+        await axios.post(`${rootApi}/users/${userId}/new-password`, data)
+        this.$router.push('/dashboard')
       } catch (e) {
       }
     }

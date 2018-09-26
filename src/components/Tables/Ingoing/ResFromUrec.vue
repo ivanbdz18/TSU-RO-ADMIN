@@ -39,8 +39,8 @@ export default {
       const rootApi = process.env.VUE_APP_ROOT_API
       this.documents = (await axios.get(`${rootApi}/documents`)).data
       this.documentsState8 = this.documents.filter(d => d.state === 8 && d.received === null)
-      this.documentsState12 = this.documents.filter(d => d.state === 12)
-      this.documentsState14 = this.documents.filter(d => d.state === 14)
+      // this.documentsState12 = this.documents.filter(d => d.state === 12)
+      // this.documentsState14 = this.documents.filter(d => d.state === 14)
     },
     receiveDocument: async function (documentId) {
       const rootApi = process.env.VUE_APP_ROOT_API
